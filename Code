@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Simple Register Form</title>
+</head>
+<body>
+
+<h2>Register Form</h2>
+
+<form>
+Name:<br>
+<input type="text" name="name"><br><br>
+
+ Email:<br>
+<input type="email" name="email"><br><br>
+
+Password:<br>
+ <input type="password" name="password"><br><br>
+
+Gender:<br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female<br><br>
+
+  Country:<br>
+  <select name="country">
+  <option value="india">India</option>
+  <option value="usa">USA</option>
+  <option value="uk">UK</option>
+ </select><br><br>
+Phone Number:<br>
+<input type="tel"><br><br>
+
+Date of Birth:<br>
+<input type="date"><br><br>
+
+Upload Photo:<br>
+<input type="file"><br><br>
+
+
+<input type="submit" value="Register">
+</form>
+
+</body>
+</html      >
